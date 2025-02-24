@@ -6,13 +6,16 @@
   "bugs": {
     "url": "https://github.com/Skaletti/frontend-project-44/issues"
   },
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Skaletti/frontend-project-44.git"
   },
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
