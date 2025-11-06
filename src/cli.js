@@ -2,7 +2,6 @@ import readlineSync from 'readline-sync'
 
 export const welcome = () => {
   const name = readlineSync.question('May I have your name?')
-
   console.log(`Hello, ${name}`)
   return name
 }
@@ -21,7 +20,8 @@ export const evenGame = (name) => {
     const ans = readlineSync.question('Your answer:')
     const correct = random % 2 === 0 ? 'yes' : 'no'
     if (ans === correct) {
-      console.log('Correct!'); correctCount += 1
+      console.log('Correct!')
+      correctCount += 1
     }
     else {
       console.log(`${ans} is wrong answer ;(. Correct answer was ${correct}.
@@ -98,7 +98,8 @@ export const qcdGame = (name) => {
     const ans = readlineSync.question('Your answer:')
 
     if (Number(ans) === correct) {
-      console.log('Correct!'); correctCount += 1
+      console.log('Correct!')
+      correctCount += 1
     }
     else {
       console.log(`${ans} is wrong answer ;(. Correct answer was ${correct}.
@@ -171,7 +172,8 @@ export const primeGame = (name) => {
     const ans = readlineSync.question('Your answer:')
     const correct = isPrime(random) ? 'yes' : 'no'
     if (ans === correct) {
-      console.log('Correct!'); correctCount += 1
+      console.log('Correct!')
+      correctCount += 1
     }
     else {
       console.log(`${ans} is wrong answer ;(. Correct answer was ${correct}.
