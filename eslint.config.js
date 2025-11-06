@@ -1,11 +1,11 @@
-import globals from 'globals';
-import pluginJs from '@eslint/js';
-import { FlatCompat } from '@eslint/eslintrc';
-import importPlugin from 'eslint-plugin-import';
+import globals from 'globals'
+import pluginJs from '@eslint/js'
+import { FlatCompat } from '@eslint/eslintrc'
+import importPlugin from 'eslint-plugin-import'
 
 const compat = new FlatCompat({
   recommendedConfig: pluginJs.configs.recommended,
-});
+})
 
 export default [
   {
@@ -18,6 +18,7 @@ export default [
   ...compat.extends('airbnb-base'),
   {
     rules: {
+      semi: [2, 'never'],
       'no-underscore-dangle': [
         'error',
         {
@@ -36,4 +37,4 @@ export default [
       'import/no-extraneous-dependencies': 'off',
     },
   },
-];
+]

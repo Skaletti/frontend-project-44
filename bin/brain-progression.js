@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-import { welcome, progressionGame } from '../index.js';
+import { welcome, progressionGame } from '../index.js'
 
-console.log('Welcome to the Brain Games!');
+console.log('Welcome to the Brain Games!')
 
-progressionGame(welcome());
+progressionGame(welcome())

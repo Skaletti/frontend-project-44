@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-import { welcome, qcdGame } from '../index.js';
+import { welcome, qcdGame } from '../index.js'
 
-console.log('Welcome to the brain-games!');
+console.log('Welcome to the brain-games!')
 
-qcdGame(welcome());
+qcdGame(welcome())
