@@ -67,7 +67,8 @@ export const calcGame = (name) => {
     if (Number(ans) === correct) {
       console.log('Correct!')
       correctCount += 1
-    } else {
+    } 
+    else {
       console.log(`${ans} is wrong answer ;(. Correct answer was ${correct}. Let's try again, ${name}!`)
       break
     }
@@ -79,8 +80,12 @@ export const calcGame = (name) => {
 }
 
 function gcd(a, b) {
-  if (a === 0) { return b }
-  if (b === 0) { return a }
+  if (a === 0) { 
+    return b 
+  }
+  if (b === 0) { 
+    return a 
+  }
 
   return gcd(b, a % b)
 }
