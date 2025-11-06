@@ -20,14 +20,15 @@ export const evenGame = (name) => {
     console.log(`Question: ${random}`)
     const ans = readlineSync.question('Your answer:')
     const correct = random % 2 === 0 ? 'yes' : 'no'
-    if (ans === correct) { console.log('Correct!'); correctCount += 1 }
+    if (ans === correct) {
+      console.log('Correct!'); correctCount += 1
+    }
     else {
       console.log(`${ans} is wrong answer ;(. Correct answer was ${correct}.
 Let's try again, ${name}!`)
       break
     }
     if (correctCount === 3) {
-      А
       console.log(`Congratulations, ${name}!`)
       break
     }
