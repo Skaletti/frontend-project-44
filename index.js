@@ -1,5 +1,7 @@
-// @ts-check
+import {
+  evenGame, welcome, calcGame, qcdGame, progressionGame, primeGame,
+} from './src/cli.js';
 
-import cli from './src/cli.js';
-
-export default cli;
+export {
+  evenGame, welcome, calcGame, qcdGame, progressionGame, primeGame,
+};

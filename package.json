@@ -1,15 +1,16 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/Kirill1959/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Kirill1959/frontend-project-44/actions)",
-  "type": "module",
+  "description": "[![Actions Status](https://github.com/Sarsela/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Sarsela/frontend-project-44/actions)",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "make-executable": "chmod +x bin/brain-even.js bin/brain-games.js bin/brain-gcd.js bin/brain-progression.js bin/brain-prime.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarsela/frontend-project-44.git"
+  },
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
@@ -18,6 +19,12 @@
     "brain-progression": "bin/brain-progression.js",
     "brain-prime": "bin/brain-prime.js"
   },
+  "author": "Anastasia K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sarsela/frontend-project-44/issues"
+  },
+  "homepage": "https://github.com/Sarsela/frontend-project-44#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
   },
@@ -25,7 +32,7 @@
     "@eslint/create-config": "^1.0.0",
     "@eslint/eslintrc": "^3.3.0",
     "@eslint/js": "^9.21.0",
-    "eslint": "^8.57.1",
+    "eslint": "^8.57.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
