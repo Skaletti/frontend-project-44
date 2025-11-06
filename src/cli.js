@@ -150,7 +150,7 @@ export const progressionGame = (name) => {
     if (ans === hiddenValue.toString()) {
       console.log('Correct!')
       correctCount += 1
-    } 
+    }
     else {
       console.log(`${ans} is wrong answer ;(. Correct answer was ${hiddenValue}. Let's try again, ${name}!`)
       break
