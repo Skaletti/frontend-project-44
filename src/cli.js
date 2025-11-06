@@ -20,11 +20,14 @@ export const evenGame = (name) => {
     console.log(`Question: ${random}`)
     const ans = readlineSync.question('Your answer:')
     const correct = random % 2 === 0 ? 'yes' : 'no'
-    if (ans === correct) { console.log('Correct!'); correctCount += 1 } else {
+    if (ans === correct) { console.log('Correct!'); correctCount += 1 }
+    else {
       console.log(`${ans} is wrong answer ;(. Correct answer was ${correct}.
-Let's try again, ${name}!`); break
+Let's try again, ${name}!`)
+      break
     }
     if (correctCount === 3) {
+      А
       console.log(`Congratulations, ${name}!`)
       break
     }
@@ -93,9 +96,13 @@ export const qcdGame = (name) => {
     console.log(`Question: ${random1} ${random2}`)
     const ans = readlineSync.question('Your answer:')
 
-    if (Number(ans) === correct) { console.log('Correct!'); correctCount += 1 } else {
+    if (Number(ans) === correct) {
+      console.log('Correct!'); correctCount += 1
+    }
+    else {
       console.log(`${ans} is wrong answer ;(. Correct answer was ${correct}.
-Let's try again, ${name}!`); break
+Let's try again, ${name}!`)
+      break
     }
     if (correctCount === 3) {
       console.log(`Congratulations, ${name}!`)
@@ -162,9 +169,13 @@ export const primeGame = (name) => {
     console.log(`Question: ${random}`)
     const ans = readlineSync.question('Your answer:')
     const correct = isPrime(random) ? 'yes' : 'no'
-    if (ans === correct) { console.log('Correct!'); correctCount += 1 } else {
+    if (ans === correct) {
+      console.log('Correct!'); correctCount += 1
+    }
+    else {
       console.log(`${ans} is wrong answer ;(. Correct answer was ${correct}.
-Let's try again, ${name}!`); break
+Let's try again, ${name}!`)
+      break
     }
     if (correctCount === 3) {
       console.log(`Congratulations, ${name}!`)
