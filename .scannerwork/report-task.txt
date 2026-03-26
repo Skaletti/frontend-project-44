@@ -1,0 +1,7 @@
+organization=skaletti
+projectKey=Skaletti_frontend-project-44
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.83958
+dashboardUrl=https://sonarcloud.io/dashboard?id=Skaletti_frontend-project-44
+ceTaskId=AZ0orcx1Hyr8puYm8I1C
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZ0orcx1Hyr8puYm8I1C
